@@ -1,0 +1,11 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2869
+
+When a ruby test file with your cursor within a test block, hit
+<leader>.
+(that's <leader><period>) and that test, and only that test, will run in quickfix.
+That's it!
+
+Currently only supports Test::Unit and Rspec.  If run on an Rspec describe block it will run all the tests in that block (just using existing spec command-line functionality for that one).
+
+The script is also hosted on GitHub:
+http://github.com/dmcinnes/ruby_single_test
